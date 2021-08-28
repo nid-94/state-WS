@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  background-image: url(https://wallpaperaccess.com/full/4515141.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Playball', cursive;
+  font-family: 'Playfair Display SC', serif;
+  font-size: 22px;
+  color: rgb(9, 243, 114);
+  width: 911;
+  height: 854;
+}
+
+.cart{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+Button{
+  margin: 20px;
+}
+.card{
+  background-color: #023322b4 !important;
+  box-shadow: 10px 0 10px 0 rgba(95, 189, 218, 0.904);
+  
+}
+
+.list-group-item{
+  background-color: #02332200 !important ;
+  color: aliceblue !important; 
+}
+h1{
+  font-family: 'Azeret Mono', monospace;
+}
