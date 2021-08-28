@@ -7,7 +7,7 @@ export class App extends Component {
   
   state={
     status:false,
-    fullName:"ARFAoui Nidhal",
+    fullName:"ARFAOUI Nidhal",
     bio:"Hard-worker , Well motivated",
     imgSrc:myimg, 
     profession:"Engineer",
