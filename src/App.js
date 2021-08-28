@@ -24,7 +24,7 @@ export class App extends Component {
       <div className="App">
         <b><h1>Press this button to know who am i !</h1></b>
         
-        <Button variant="primary" size="lg" onClick={this.buttonShow}>Show</Button>
+        <Button variant="primary" size="lg" active onClick={this.buttonShow}>Show</Button>
         <p/>
         {(this.state.status===true) ?(
           <div className="cart">
