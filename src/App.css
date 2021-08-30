@@ -4,6 +4,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100vw;
+  height: 150vh;
   font-family: 'Playball', cursive;
   font-family: 'Playfair Display SC', serif;
   font-size: 22px;

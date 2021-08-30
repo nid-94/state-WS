@@ -22,9 +22,8 @@ export class App extends Component {
     
     return (
       <div className="App">
-        <b><h1>Press this button to know who am i !</h1></b>
-        
-        <Button variant="primary" size="lg" active onClick={this.buttonShow}>Show</Button>
+        <b><h1>Press thhis button to discover who am i !</h1></b>
+        <Button variant="primary" size="lg" active onClick={()=>this.setState(this.state.status===true?{...this.state,status:false}:{...this.state,status:true})}>Show/Hide</Button>
         <p/>
         {(this.state.status===true) ?(
           <div className="cart">
@@ -36,13 +35,12 @@ export class App extends Component {
     <ListGroupItem><b><p>NAME </p></b>{this.state.fullName}</ListGroupItem>
     <ListGroupItem><b><p> BIO</p></b>{this.state.bio}</ListGroupItem>
     <ListGroupItem><b><p>PROFESSION</p></b>{this.state.profession}</ListGroupItem>
-   
   </ListGroup>
 
 </Card>
           </div>
           
-        ):""}
+        ):<></>}
       </div>
     )
   }
